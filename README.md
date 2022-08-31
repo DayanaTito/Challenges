@@ -34,7 +34,6 @@ A letra "o" é convertida para "ober"
 A letra "u" é convertida para "ufat"
 
 <strong>Por exemplo:</strong>
-
 "gato" => "gaitober"
 gaitober" => "gato" 
 </pre>
