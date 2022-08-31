@@ -1,7 +1,7 @@
 <h2 align="center">Contents</h2>
 
 <p align="center">
-    <a href="#Two-Sum">:heavy_plus_sign: Two Sum</a>
+    <a href="#Two-Sum">:heavy_plus_sign: Two Sum</a> <a href="#Two-Sum">:heavy_plus_sign: Decodificador de Texto</a>
 </p>
 
 
@@ -13,6 +13,30 @@ The function should find two different integers in the array that give the targe
 <pre><strong>Input:</strong> nums = [2,7,11,15], target = 9
 <strong>Output:</strong> [0,1]
 <strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
+</pre>
+
+---
+
+<H2 id="Two-Sum">:heavy_plus_sign: Decodificador de Texto <a href="https://github.com/DayanaTito/Challenges/tree/main/Decodificador%20de%20Texto"> &rarr; </a></H2>
+<p>Requisitos:
+
+- Deve funcionar apenas com letras minúsculas
+- Não devem ser utilizados letras com acentos nem caracteres especiais
+- Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+
+</p>
+<pre><strong>As "chaves" de criptografia que utilizaremos são:</strong> 
+
+A letra "e" é convertida para "enter"
+A letra "i" é convertida para "imes"
+A letra "a" é convertida para "ai"
+A letra "o" é convertida para "ober"
+A letra "u" é convertida para "ufat"
+
+<strong>Por exemplo:</strong>
+
+"gato" => "gaitober"
+gaitober" => "gato" 
 </pre>
 
 ---
