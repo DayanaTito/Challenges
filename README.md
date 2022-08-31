@@ -24,7 +24,7 @@ The function should find two different integers in the array that give the targe
 - Não devem ser utilizados letras com acentos nem caracteres especiais
 - Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
 
-<strong>Por exemplo:</strong>
+<pre><strong>Por exemplo:</strong>
 "gato" => "gaitober"
 gaitober" => "gato" 
 </pre>
