@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assents/CSS/style.css">
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <main class="main">
+        <img src="/assents/img/logoalura.png" class="logo" onclick="home()">
+        <section class="div-principal">
+            <form action="">
+                <textarea class="text-input" type="text" name="input-texto" maxlength="120" id="input-texto"
+                    placeholder="Digite seu texto"></textarea>
+            </form>
+
+            <div class="form-group">
+                <label for="input-texto">Apenas letras minúsculas e sem acento.</label>
+            </div>
+
+            <div class="btns-div">
+                <input class="btn-encriptar" type="submit" value="Criptografar" id="btn-encriptar">
+                <input class="btn-desencriptar" type="submit" value="Descriptografar" id="btn-desencriptar">
+            </div>
+        </section>
+
+        <section class="message-box">
+            <div id="div-desaparece" class="message-box-div">
+              <img src="/assents/img/muñeco.png"> 
+              <h2>Nenhuma mensagem encontrada</h2>
+              <h3>Digite um texto que você deseja criptografar ou descriptografar.</h3>
+            </div>      
+            <div id="div-aparece">
+              <textarea class="div-mensaje" type="text" id="mensaje" placeholder="Nenhuma mensagem encontrada"></textarea>
+              <input class="btn-copiar" type="submit" value="Copiar" id="btn-copiar">
+            </div>
+          </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
