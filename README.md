@@ -1,7 +1,7 @@
 <h2 align="center">Contents</h2>
 
 <p align="center">
-    <a href="#Two-Sum">:heavy_plus_sign: Two Sum</a> <a href="#Two-Sum">:heavy_plus_sign: Decodificador de Texto</a>
+    <a href="#Two-Sum">:heavy_plus_sign: Two Sum</a> <a href="#Decodificador">:heavy_plus_sign: Decodificador de Texto</a>
 </p>
 
 
@@ -17,7 +17,7 @@ The function should find two different integers in the array that give the targe
 
 ---
 
-<H2 id="Two-Sum">:heavy_plus_sign: Decodificador de Texto <a href="https://github.com/DayanaTito/Challenges/tree/main/Decodificador%20de%20Texto"> &rarr; </a></H2>
+<H2 id="Decodificador">:heavy_plus_sign: Decodificador de Texto <a href="https://github.com/DayanaTito/Challenges/tree/main/Decodificador%20de%20Texto"> &rarr; </a></H2>
 <p>Requisitos:
 
 - Deve funcionar apenas com letras minúsculas
