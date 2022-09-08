@@ -60,4 +60,5 @@ function desencriptar(stringDesencriptada){
 
 function btnCopiar(){
     navigator.clipboard.writeText(mensagem.value);
+    alert("Texto copiado com sucesso!")
 }
