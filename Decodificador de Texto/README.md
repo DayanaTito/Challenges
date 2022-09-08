@@ -34,5 +34,5 @@ A letra "u" é convertida para "ufat"</strong>
 
 <pre><p>
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência 
-- ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
+- ou seja, que tenha a mesma funcionalidade do <code>ctrl+C</code>&nbsp;ou da opção "copiar" do menu dos aplicativos.
 </p></pre>
