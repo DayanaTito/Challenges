@@ -11,7 +11,7 @@
 
 <body>
     <main class="main">
-        <img src="/assents/img/logoalura.png" class="logo" onclick="home()">
+        <img src="/assents/img/logoalura.png" class="logo" alt="logo da alura" onclick="home()">
         <section class="div-principal">
             <form action="">
                 <textarea class="text-input" type="text" name="input-texto" maxlength="120" id="input-texto"
@@ -23,8 +23,8 @@
             </div>
 
             <div class="btns-div">
-                <input class="btn-encriptar" type="submit" value="Criptografar" id="btn-encriptar">
-                <input class="btn-desencriptar" type="submit" value="Descriptografar" id="btn-desencriptar">
+                <input class="btn-encriptar" type="submit" value="Criptografar" id="btn-encriptar" onclick= "btnEncriptar()">
+                <input class="btn-desencriptar" type="submit" value="Descriptografar" id="btn-desencriptar" onclick="btnDesencriptar()">
             </div>
         </section>
 
@@ -35,13 +35,13 @@
               <h3>Digite um texto que você deseja criptografar ou descriptografar.</h3>
             </div>      
             <div id="div-aparece">
-              <textarea class="div-mensaje" type="text" id="mensaje" placeholder="Nenhuma mensagem encontrada"></textarea>
-              <input class="btn-copiar" type="submit" value="Copiar" id="btn-copiar">
+              <textarea class="div-mensagem" type="text" id="mensagem" placeholder="Nenhuma mensagem encontrada"></textarea>
+              <input class="btn-copiar" type="submit" value="Copiar" id="btn-copiar" onclick="btnCopiar()">
             </div>
           </section>
     </main>
 
-    <script src="script.js"></script>
+    <script src="/assents/scripts/script.js"></script>
 
 </body>
 

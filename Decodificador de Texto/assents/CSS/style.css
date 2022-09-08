@@ -265,7 +265,7 @@
     bottom: 0%;
   
   }
-  .div-mensaje{
+  .div-mensagem{
     position: absolute;
     width: 400px;
     height: 781px;
@@ -284,7 +284,7 @@
     border:none;
     background:transparent;
   }
-  .div-mensaje:focus { 
+  .div-mensagem:focus { 
     border: none;
     outline: none;
    }
@@ -370,7 +370,7 @@
     height:64px;
     font-size:24px;
   }
-  .div-mensaje{
+  .div-mensagem{
     width: 20rem;
     left:2.5rem;
     word-wrap: break-word;
@@ -436,7 +436,7 @@
       height:65px;
       font-size:24px;
     }
-    .div-mensaje{
+    .div-mensagem{
       height:auto;
       left:2.5rem;
       flex: 1 1 auto;
@@ -515,7 +515,7 @@
         font-size:20px;
         left:-0.5rem;
       }
-      .div-mensaje{
+      .div-mensagem{
         width: 17rem;
         top: 0.5rem;
         height:8rem;
