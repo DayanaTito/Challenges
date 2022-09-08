@@ -284,10 +284,11 @@
     border:none;
     background:transparent;
   }
-  .div-mensagem:focus { 
-    border: none;
-    outline: none;
-   }
+  .div-mensagem{
+    height:auto;
+    left:2.5rem;
+    flex: 1 1 auto;
+  }
   .btn-copiar{
     display: flex;
     flex-direction: row;
